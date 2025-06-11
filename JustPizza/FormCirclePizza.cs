@@ -27,7 +27,7 @@ namespace JustPizza
         private void LoadData()
         {
             string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\hp\\source\\repos\\JustPizza\\JustPizza\\JustPizzaDatabase.mdf;Integrated Security=True";
-            string query = "SELECT * FROM Pizza WHERE PizzaID LIKE 'CP%'";
+            string query = "SELECT * FROM Pizza WHERE PizzaID LIKE 'CP%' ";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
