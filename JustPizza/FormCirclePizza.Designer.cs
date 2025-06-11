@@ -32,8 +32,8 @@
             this.textBoxCPizzaID = new System.Windows.Forms.TextBox();
             this.textBoxCPPrice = new System.Windows.Forms.TextBox();
             this.labelCPPrice = new System.Windows.Forms.Label();
-            this.textBoxCPDiameter = new System.Windows.Forms.TextBox();
-            this.labelCPDiameter = new System.Windows.Forms.Label();
+            this.textBoxCPDimension = new System.Windows.Forms.TextBox();
+            this.labelCPDimension = new System.Windows.Forms.Label();
             this.textBoxCPDescription = new System.Windows.Forms.TextBox();
             this.labelCPDescription = new System.Windows.Forms.Label();
             this.buttonAdd = new System.Windows.Forms.Button();
@@ -78,21 +78,21 @@
             this.labelCPPrice.TabIndex = 2;
             this.labelCPPrice.Text = "Price";
             // 
-            // textBoxCPDiameter
+            // textBoxCPDimension
             // 
-            this.textBoxCPDiameter.Location = new System.Drawing.Point(172, 221);
-            this.textBoxCPDiameter.Name = "textBoxCPDiameter";
-            this.textBoxCPDiameter.Size = new System.Drawing.Size(182, 30);
-            this.textBoxCPDiameter.TabIndex = 5;
+            this.textBoxCPDimension.Location = new System.Drawing.Point(172, 221);
+            this.textBoxCPDimension.Name = "textBoxCPDimension";
+            this.textBoxCPDimension.Size = new System.Drawing.Size(182, 30);
+            this.textBoxCPDimension.TabIndex = 5;
             // 
-            // labelCPDiameter
+            // labelCPDimension
             // 
-            this.labelCPDiameter.AutoSize = true;
-            this.labelCPDiameter.Location = new System.Drawing.Point(63, 225);
-            this.labelCPDiameter.Name = "labelCPDiameter";
-            this.labelCPDiameter.Size = new System.Drawing.Size(90, 25);
-            this.labelCPDiameter.TabIndex = 4;
-            this.labelCPDiameter.Text = "Diameter";
+            this.labelCPDimension.AutoSize = true;
+            this.labelCPDimension.Location = new System.Drawing.Point(63, 225);
+            this.labelCPDimension.Name = "labelCPDimension";
+            this.labelCPDimension.Size = new System.Drawing.Size(104, 25);
+            this.labelCPDimension.TabIndex = 4;
+            this.labelCPDimension.Text = "Dimension";
             // 
             // textBoxCPDescription
             // 
@@ -120,6 +120,7 @@
             this.buttonAdd.TabIndex = 8;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = false;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonUpdate
             // 
@@ -195,8 +196,8 @@
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.textBoxCPDescription);
             this.Controls.Add(this.labelCPDescription);
-            this.Controls.Add(this.textBoxCPDiameter);
-            this.Controls.Add(this.labelCPDiameter);
+            this.Controls.Add(this.textBoxCPDimension);
+            this.Controls.Add(this.labelCPDimension);
             this.Controls.Add(this.textBoxCPPrice);
             this.Controls.Add(this.labelCPPrice);
             this.Controls.Add(this.textBoxCPizzaID);
@@ -219,8 +220,8 @@
         private System.Windows.Forms.TextBox textBoxCPizzaID;
         private System.Windows.Forms.TextBox textBoxCPPrice;
         private System.Windows.Forms.Label labelCPPrice;
-        private System.Windows.Forms.TextBox textBoxCPDiameter;
-        private System.Windows.Forms.Label labelCPDiameter;
+        private System.Windows.Forms.TextBox textBoxCPDimension;
+        private System.Windows.Forms.Label labelCPDimension;
         private System.Windows.Forms.TextBox textBoxCPDescription;
         private System.Windows.Forms.Label labelCPDescription;
         private System.Windows.Forms.Button buttonAdd;
