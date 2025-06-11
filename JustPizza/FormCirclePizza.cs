@@ -91,6 +91,13 @@ namespace JustPizza
             }
         }
 
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            ClearInputs();
+        }
+
+
         private bool ValidateInputs()
         {
             if (string.IsNullOrEmpty(textBoxCPizzaID.Text) || string.IsNullOrEmpty(textBoxCPDescription.Text) ||
