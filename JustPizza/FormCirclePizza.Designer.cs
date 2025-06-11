@@ -134,7 +134,7 @@
             // 
             // buttonClear
             // 
-            this.buttonClear.BackColor = System.Drawing.Color.Chocolate;
+            this.buttonClear.BackColor = System.Drawing.Color.Salmon;
             this.buttonClear.Location = new System.Drawing.Point(338, 349);
             this.buttonClear.Name = "buttonClear";
             this.buttonClear.Size = new System.Drawing.Size(86, 42);
