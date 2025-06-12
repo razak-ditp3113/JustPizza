@@ -22,7 +22,7 @@ namespace JustPizza
             InitializeComponent();
 
             // Initialize the connection object
-            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\hp\\source\\repos\\JustPizza\\JustPizza\\JustPizzaDatabase.mdf;Integrated Security=True";
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\Users\End User\Source\Repos\JustPizza\JustPizza;Integrated Security=True";
             connection = new SqlConnection(connectionString);
         }
 
@@ -34,7 +34,7 @@ namespace JustPizza
 
         private void LoadData()
         {
-            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\hp\\source\\repos\\JustPizza\\JustPizza\\JustPizzaDatabase.mdf;Integrated Security=True";
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\Users\End User\Source\Repos\JustPizza\JustPizza;Integrated Security=True";
             string query = "SELECT * FROM Pizza WHERE PizzaID LIKE 'CP%' ";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
