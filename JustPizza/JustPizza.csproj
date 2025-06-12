@@ -164,10 +164,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JustPizzaDatabase.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="JustPizzaDatabase_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>JustPizzaDatabase.mdf</DependentUpon>
     </Content>
   </ItemGroup>
