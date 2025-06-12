@@ -262,8 +262,8 @@ ServiceFabricBackup/
 *.rptproj.bak
 
 # SQL Server files
-*.mdf
-*.ldf
+#*.mdf
+#*.ldf
 *.ndf
 
 # Business Intelligence projects
@@ -361,4 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+<<<<<<< HEAD
 /JustPizza/JustPizza.csproj
+=======
+>>>>>>> 2cafc14bf0478deb39176af808de3562fbc6797d
